@@ -1,7 +1,8 @@
 repo_name: Seddryck/azure-sql-db-todo-backend-dotnet
 report_id: c0fdac6c3f29cf9420d3e54b1bda160e
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-12T20:25:25+00:00'
+timestamp: '2024-01-05T08:48:14+00:00'
 requested_by: yorek
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet
   detection_source: Repo Metadata
 - name: SQL
   description: It is a domain-specific language used in programming
@@ -25,7 +27,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
-  detection_source: ToDoBackEnd.Deploy/sql/002-create-procedures.sql
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet/blob/main/ToDoBackEnd.Deploy/sql/001-create-db-objects.sql
+  detection_source: ToDoBackEnd.Deploy/sql/001-create-db-objects.sql
   last_updated_by: Davide Mauri
   last_updated_on: 2020-10-23 20:32:16.000000000 Z
 - name: ".NET"
@@ -38,6 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet/blob/main/ToDoBackEnd.Tests/ToDoBackEnd.Tests.csproj
   detection_source: ToDoBackEnd.Tests/ToDoBackEnd.Tests.csproj
   last_updated_by: Davide Mauri
   last_updated_on: 2020-10-26 00:54:21.000000000 Z
@@ -52,8 +56,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
-  detection_source_url: ToDoBackEnd.API/ToDoBackEnd.API.csproj
-  detection_source: ToDoBackEnd.Tests/ToDoBackEnd.Tests.csproj
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet/blob/main/ToDoBackEnd.API/ToDoBackEnd.API.csproj
+  detection_source: ToDoBackEnd.API/ToDoBackEnd.API.csproj
   last_updated_by: Davide Mauri
   last_updated_on: 2020-10-25 01:13:07.000000000 Z
 - name: ASP.NET Core
@@ -67,8 +71,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/11331/asp.net-core.png
-  detection_source_url: ToDoBackEnd.API/ToDoBackEnd.API.csproj
-  detection_source: ToDoBackEnd.Tests/ToDoBackEnd.Tests.csproj
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet/blob/main/ToDoBackEnd.API/ToDoBackEnd.API.csproj
+  detection_source: ToDoBackEnd.API/ToDoBackEnd.API.csproj
   last_updated_by: Davide Mauri
   last_updated_on: 2020-10-25 01:13:07.000000000 Z
 - name: Dapper
@@ -80,8 +84,8 @@ tools:
   category: Data Stores
   sub_category: Object Relational Mapper (ORM)
   image_url: https://img.stackshare.io/service/5847/default_377344b5aec46a959a5debae12cb81f81a64dce3.png
-  detection_source_url: ToDoBackEnd.API/ToDoBackEnd.API.csproj
-  detection_source: ToDoBackEnd.Tests/ToDoBackEnd.Tests.csproj
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet/blob/main/ToDoBackEnd.API/ToDoBackEnd.API.csproj
+  detection_source: ToDoBackEnd.API/ToDoBackEnd.API.csproj
   last_updated_by: Davide Mauri
   last_updated_on: 2020-10-23 18:31:48.000000000 Z
 - name: Git
@@ -92,6 +96,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -101,6 +106,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet/blob/main/.github/workflows/TodoAPI.yml
   detection_source: ".github/workflows/TodoAPI.yml"
   last_updated_by: Davide Mauri
   last_updated_on: 2020-11-16 06:58:44.000000000 Z
@@ -112,6 +118,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2371/jZ6MYx5Y_400x400.png
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet/blob/main/ToDoBackEnd.Tests/ToDoBackEnd.Tests.csproj
   detection_source: ToDoBackEnd.Tests/ToDoBackEnd.Tests.csproj
   last_updated_by: Davide Mauri
   last_updated_on: 2020-10-23 18:31:48.000000000 Z
@@ -123,6 +130,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet/blob/main/ToDoBackEnd.Tests/ToDoBackEnd.Tests.csproj
   detection_source: ToDoBackEnd.Tests/ToDoBackEnd.Tests.csproj
   last_updated_by: Davide Mauri
   last_updated_on: 2020-10-23 18:31:48.000000000 Z
@@ -135,6 +143,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet/blob/main/azure-sql-db-todo-backend-dotnet.sln
   detection_source: azure-sql-db-todo-backend-dotnet.sln
   last_updated_by: Davide Mauri
   last_updated_on: 2020-10-26 00:54:21.000000000 Z
@@ -147,6 +156,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet
   detection_source: Repo Metadata
 - name: Microsoft.AspNetCore.Mvc.NewtonsoftJson
   description: ASP.NET Core MVC features that use Newtonsoft.Json
@@ -158,7 +168,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13258/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
-  detection_source_url: ToDoBackEnd.API/ToDoBackEnd.API.csproj
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet/blob/main/ToDoBackEnd.API/ToDoBackEnd.API.csproj
   detection_source: ToDoBackEnd.API/ToDoBackEnd.API.csproj
   last_updated_by: Davide Mauri
   last_updated_on: 2020-10-25 01:13:07.000000000 Z
@@ -172,7 +182,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12943/default_e7f4dfb8f4634d3de09f6ace4c8d9767d3189c61.png
-  detection_source_url: ToDoBackEnd.Tests/ToDoBackEnd.Tests.csproj
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet/blob/main/ToDoBackEnd.Tests/ToDoBackEnd.Tests.csproj
   detection_source: ToDoBackEnd.Tests/ToDoBackEnd.Tests.csproj
   last_updated_by: Davide Mauri
   last_updated_on: 2020-10-26 00:54:21.000000000 Z
@@ -187,7 +197,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13216/default_e23dabba1be2c69fbf5fc50bdc46cbffbe6ca2cb.png
-  detection_source_url: ToDoBackEnd.Tests/ToDoBackEnd.Tests.csproj
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet/blob/main/ToDoBackEnd.Tests/ToDoBackEnd.Tests.csproj
   detection_source: ToDoBackEnd.Tests/ToDoBackEnd.Tests.csproj
   last_updated_by: Davide Mauri
   last_updated_on: 2020-10-26 00:54:21.000000000 Z
@@ -201,13 +211,19 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/nuget/image.png
-  detection_source_url: ToDoBackEnd.API/ToDoBackEnd.API.csproj
+  detection_source_url: https://github.com/Seddryck/azure-sql-db-todo-backend-dotnet/blob/main/ToDoBackEnd.API/ToDoBackEnd.API.csproj
   detection_source: ToDoBackEnd.API/ToDoBackEnd.API.csproj
   last_updated_by: Davide Mauri
   last_updated_on: 2020-10-25 01:13:07.000000000 Z
   vulnerabilities:
-  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+  - name: 'Duplicate Advisory: Improper Handling of Exceptional Conditions in Newtonsoft.Json'
     cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8rfx-6mr3-5jh3
+    detected_date: Jan 4
+    severity: high
+    first_patched: 13.0.1
+  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+    cve_id: CVE-2024-21907
     cve_url: https://github.com/advisories/GHSA-5crp-9r3c-p9vr
     detected_date: Jun 23
     severity: high
